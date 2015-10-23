@@ -1,13 +1,10 @@
 #include "Body.h"
 
-
-
-
 namespace GravitationalPhysics
 {
 	Body::Body() : position(0, 0), velocity(0, 0), mass(0)
 	{
-
+		Reset();
 	}
 
 	Body::~Body()
@@ -65,7 +62,9 @@ namespace GravitationalPhysics
 	void Body::Update(float dt)
 	{
 		//	Update velocity by all forces acting on object
+
 		//	Calculate position/velocity for next frame
+
 		//	Zeroize totalForces
 	}
 }

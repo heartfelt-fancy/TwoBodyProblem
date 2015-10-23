@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include "Body.h"
+#include "win32_app.h"
 
 int main(int argc, char* argv[])
 {
-	system("pause");
+	win32_app app("TwoBodyProblem", argc, argv);
 
-	return 0;
+	return 	app.run();
 }

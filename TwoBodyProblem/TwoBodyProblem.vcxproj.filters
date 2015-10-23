@@ -27,6 +27,15 @@
     <ClCompile Include="Body.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="win32_app.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32_chksys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Body.h">
@@ -36,6 +45,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="fmath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32_app.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32_window.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

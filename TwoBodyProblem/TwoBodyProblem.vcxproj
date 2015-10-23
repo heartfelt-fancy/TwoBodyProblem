@@ -23,11 +23,16 @@
     <ClCompile Include="float2.cpp" />
     <ClCompile Include="fmath.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="win32_app.cpp" />
+    <ClCompile Include="win32_chksys.cpp" />
+    <ClCompile Include="win32_window.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Body.h" />
     <ClInclude Include="float2.h" />
     <ClInclude Include="fmath.h" />
+    <ClInclude Include="win32_app.h" />
+    <ClInclude Include="win32_window.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{63779B81-38C9-4E50-B212-E273D44847FF}</ProjectGuid>
