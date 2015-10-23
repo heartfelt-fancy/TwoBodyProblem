@@ -1,12 +1,13 @@
-#ifndef _BODY_H_
-#define _BODY_H_
+#ifndef _GRAVITATIONALBODY_H_
+#define _GRAVITATIONALBODY_H_
 
+#include <list>
 #include "float2.h"
 
 namespace GravitationalPhysics
 {
 	const float g_GravitationalConstant = 6.67 * 0.000000000001;
-
+	
 	class Body
 	{
 	public:
@@ -39,5 +40,10 @@ namespace GravitationalPhysics
 		Body& operator=(const Body&) {};
 	};
 }
+
+using std::list;
+using namespace GravitationalPhysics;
+
+static list<Body*> g_Bodies;
 
 #endif

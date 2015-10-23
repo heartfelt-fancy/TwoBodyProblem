@@ -66,5 +66,6 @@ namespace GravitationalPhysics
 		//	Calculate position/velocity for next frame
 
 		//	Zeroize totalForces
+		totalForces = float2(0, 0);
 	}
 }

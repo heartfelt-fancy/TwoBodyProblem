@@ -59,12 +59,12 @@ bool chk_mem(int physRam, int vRam)
 		return false;
 
 	//	check contiguous virtual memory
-	char* buffer = new char[vRam];
+	//char* buffer = new char[vRam];
 
-	if(buffer)
-		delete buffer;
-	else
-		return false;
+	//if(buffer)
+	//	delete buffer;
+	//else
+	//	return false;
 
 	return true;
 }
